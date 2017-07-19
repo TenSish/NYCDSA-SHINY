@@ -6,7 +6,7 @@ library(tidyr)
 library(ggplot2)
 library(plotly)
 library(data.table)
-data = read.csv("/Users/Sishe/Desktop/NYCDSA_SHINY/Music Copy.csv")
+data = read.csv("/Users/Sishe/Desktop/NYCDSA-SHINY/Music Copy.csv")
 a = data%>%select(danceability, genres)%>%mutate(danceability = round(as.numeric(danceability),4))%>%group_by(genres)%>%summarize(dance.prob = mean(danceability))
 dat = data[,c(3:8,10:13,17)]
 z = gather(dat, key= genres, value = value)
