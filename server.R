@@ -10,8 +10,6 @@ library(plotly)
 library(data.table)
 
 
-data = read.csv("/Users/Sishe/Desktop/NYCDSA_SHINY/Music Copy.csv")
-
 
 shinyServer(function(input, output) {
 
