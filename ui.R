@@ -7,7 +7,7 @@ library(ggplot2)
 library(plotly)
 library(data.table)
 
-data = read.csv("/Users/Sishe/Desktop/NYCDSA-SHINY/Music Copy.csv")
+
  genrelist= data%>%select(genres)%>%distinct()
  data$genres = factor(data$genres, levels = c(genrelist))
 shinyUI(dashboardPage(skin = "purple",
