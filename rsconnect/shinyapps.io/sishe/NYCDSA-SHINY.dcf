@@ -1,0 +1,10 @@
+name: NYCDSA-SHINY
+title: NYCDSA-SHINY
+account: sishe
+server: shinyapps.io
+appId: 197972
+bundleId: 908851
+url: https://sishe.shinyapps.io/NYCDSA-SHINY/
+when: 1500470200.6644
+asMultiple: FALSE
+asStatic: FALSE

@@ -10,10 +10,7 @@ library(plotly)
 library(data.table)
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> f2b4a35836415e09fe5613a885e9381e556a5158
 
 shinyServer(function(input, output) {
 
